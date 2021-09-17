@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import socket
 
-# define address & buffer size
+# Define address & buffer size
 HOST = "localhost"
 PORT = 8001
 BUFFER_SIZE = 1024

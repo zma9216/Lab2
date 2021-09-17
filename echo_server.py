@@ -13,7 +13,7 @@ def main():
         # QUESTION 3
         s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
-        # Sind socket to address
+        # Bind socket to address
         s.bind((HOST, PORT))
         # Set to listening mode
         s.listen(2)
